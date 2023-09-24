@@ -1,0 +1,195 @@
+/* .cartSection{
+    background-color: white;
+    margin-left: 230px;
+    width: 60%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+} */
+
+/* .signButton{
+    margin-bottom: 30px;
+} */
+/* #userEmail{
+    display: flex;
+    justify-content: end;
+}
+
+.cart-item{
+    display:;
+} */
+
+.cartPage {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.userInfo {
+  padding-left: 20px;
+  display: flex;
+  justify-content:center;
+  border-radius: 30px;
+}
+
+.cartSection{
+  height:86vh;
+}
+
+#userData {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#userEmail {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cart-items {
+  margin-top: 10px;
+}
+
+.cart-item {
+  background-color: rgba(255, 255, 255, 0.749);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.removeButton {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.removeButton:hover {
+  background-color: #c0392b;
+}
+
+.signButton button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.signButton button:hover {
+  background-color:#2980b9;
+}
+
+
+
+
+
+
+
+
+/* cart.css */
+
+.cartPage {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .userInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #userData {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  #userEmail {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    margin-top: 10px;
+  }
+  
+  .cart-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .cart-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .removeButton {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .removeButton:hover {
+    background-color: #c0392b;
+  }
+  
+  .signButton button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .signButton button:hover {
+    background-color: #2980b9;
+  }
+  
+  .notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 128, 0, 0.8); /* Green background color with some transparency */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  .notification-text {
+    font-size: 16px;
+  }

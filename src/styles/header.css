@@ -1,0 +1,56 @@
+/* Styles for the navigation container */
+.navigation {
+  background-color: rgb(56, 51, 51);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+}
+
+/* Styles for the heading */
+.heading h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff9900;
+  margin: 0;
+  margin-left: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for the navigation list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Styles for the list items */
+.items {
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  font-size: large;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for the links */
+.link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: color 0.3s ease;
+  margin-right: 30px;
+}
+
+.link:hover {
+  color: #F4E869; /* Change the color on hover */
+}
+
+.signin{
+  margin-bottom: 60px;
+}
+
+

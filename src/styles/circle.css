@@ -1,0 +1,19 @@
+/* Circle.css */
+ 
+  .circle {
+    padding: 20px; /* Adjust the distance from the edge of the page as needed */
+    width: 400px; /* Adjust the size of the circle */
+    height: 400px;
+    background-color: #4250d1;
+    ; /* Change the background color to your desired color */
+    border-radius: 50%;
+    border: 3px solid #000;
+  }
+  
+  /* Add a media query for responsiveness */
+  @media (max-width: 768px) {
+    .circle-container {
+      justify-content: center; /* Center the circle on smaller screens */
+    }
+  }
+  
